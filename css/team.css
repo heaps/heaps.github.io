@@ -1,0 +1,48 @@
+
+.card {
+  margin: 5px;
+  margin-bottom: 5px;
+}
+
+
+/*
+@media (max-width: 576px) {
+    .card {
+      width: 100%;
+    }    
+
+}
+
+.card {
+  float: left;
+  margin: .5rem;
+  margin-bottom: 2rem;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+
+@media (min-width: 577px) { 
+    .card {
+      width: 45%;
+    }    
+}
+@media (min-width: 768px) { 
+    .card {
+      width: 45%;
+    }    
+}
+@media (min-width: 992px) {
+    .card {
+      width: 30%;
+    }        
+}
+
+*/
+

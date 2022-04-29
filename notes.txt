@@ -1,0 +1,46 @@
+https://github.com/dimsemenov/PhotoSwipe
+https://github.com/blueimp/Gallery
+https://github.com/sachinchoolur/lightgallery.js
+https://github.com/lokesh/lightbox2/
+https://github.com/fancyapps/fancybox
+http://sachinchoolur.github.io/lightGallery/
+https://feimosi.github.io/baguetteBox.js/
+-----------------------------------------------------
+
+h1 { font-size: 36px; line-height: 40px; }
+h2 { font-size: 30px; line-height: 40px; }
+h3 { font-size: 24px; line-height: 40px; }
+h4 { font-size: 18px; line-height: 20px; }
+h5 { font-size: 14px; line-height: 20px; }
+h6 { font-size: 12px; line-height: 20px; }
+
+.topic {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  .topic {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .topic {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .topic {
+    font-size: 28px;
+  }
+}
+-----------------------------------------------------
+The MIT Geospatial Data Center is the uniting force of MIT\'s Intelligent Engineering Systems Laboratory, bringing together applied computation research in Data Science, Cybersecurity, Simulation, Augmented Reality, the Internet of Things (IOT), Blockchain, and Educational Technology (EdTech).
+
+
+"Predicting the performance of these systems is extremely difficult”, says Williams, the Director of MIT Geospatial Data Center. To address these questions we have built a simulator so companies can test potential solutions before.
+
+GDC’s Large-Scale Simulator for Global Data Infrastructure Optimization tackles Big Data
+
+.<a href="#" class="btn btn-primary">More ...</a>

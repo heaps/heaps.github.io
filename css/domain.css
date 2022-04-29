@@ -1,0 +1,112 @@
+/*!
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+    height: 32rem;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* --- Temporary navbar container fix --- */
+
+.navbar-toggler {
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    nav > .container {
+        width: 100%;
+    }
+    .card {
+      width: 100%;
+    }    
+
+}
+
+/* --- Temporary fix for img-fluid sizing within the carousel --- */
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+.card {
+  float: left;
+  margin: .5rem;
+  margin-bottom: 2rem;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+
+/* --- Handle screen sizes: 480,768, 992, 1200 --- */    
+@media (max-width: 800px) { 
+    .gdcTopic h1{
+        font-size: 30px; line-height: 40px;
+    }
+    .gdcTopic h3{
+        font-size: 18px; line-height: 20px;
+    }    
+    .gdcTopic p{
+        display: none;      
+    }
+}
+
+@media (min-width: 577px) { 
+    .card {
+      width: 45%;
+    }    
+}
+@media (min-width: 768px) { 
+    .card {
+      width: 45%;
+    }    
+}
+@media (min-width: 992px) {
+    .card {
+      width: 30%;
+    }        
+}
+
+/*
+@media (max-width: 800px) { 
+    .topicDescription{
+        display: none;
+    }
+    h1{
+        font-size: 30px; line-height: 40px;
+    }
+}
+@media (max-width: 800px) { 
+    .topicDescription{
+        display: none;
+    }
+    h1{
+        font-size: 30px; line-height: 40px;
+    }
+}
+@media (max-width: 800px) { 
+    .topicDescription{
+        display: none;
+    }
+    h1{
+        font-size: 30px; line-height: 40px;
+    }
+}
+*/
+
+

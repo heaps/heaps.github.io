@@ -1,0 +1,97 @@
+/*!
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* --- Temporary navbar container fix --- */
+
+.navbar-toggler {
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    nav > .container {
+        width: 100%;
+    }
+}
+
+/* --- Temporary fix for img-fluid sizing within the carousel --- */
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+/* --- Handle screen sizes: 480,768, 992, 1200 --- */    
+@media (max-width: 800px) { 
+    .gdcTopic h1{
+        font-size: 30px; line-height: 40px;
+    }
+    .gdcTopic h3{
+        font-size: 18px; line-height: 20px;
+    }    
+    .gdcTopic p{
+        display: none;    	
+    }
+
+}
+
+
+    .carousel-control {
+        background: rgba(255, 255, 255, 0.5);
+        text-shadow: none;
+        width: 165px;
+        height: 165px;
+        position: absolute;
+        opacity: 1;
+        top: 44%;
+        &:hover, 
+        &:focus {
+            background: rgba(0, 0, 0, 0.5);
+        };
+        [class^="icon-"] {
+            font-size: 65px;
+        }
+    }
+
+
+/*
+@media (max-width: 800px) { 
+    .topicDescription{
+        display: none;
+    }
+    h1{
+        font-size: 30px; line-height: 40px;
+    }
+}
+@media (max-width: 800px) { 
+    .topicDescription{
+        display: none;
+    }
+    h1{
+        font-size: 30px; line-height: 40px;
+    }
+}
+@media (max-width: 800px) { 
+    .topicDescription{
+        display: none;
+    }
+    h1{
+        font-size: 30px; line-height: 40px;
+    }
+}
+*/
+
+
