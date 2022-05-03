@@ -23,7 +23,7 @@ students.push({
 students.push({
     name : 'John R. Williams',
     img  : 'img/people/JohnWilliams.jpg',
-    url  : 'https://web.mit.edu/'
+    url  : 'https://johntango.github.io/'
 });
 students.push({
     name : 'Bruce Jones',
