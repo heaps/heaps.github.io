@@ -267,7 +267,7 @@ students.forEach(function(student){
     thumbnails.push({
         description : name,
         image       : student.img,
-        student     : student.url
+        url         : student.url
     });
 });
 
