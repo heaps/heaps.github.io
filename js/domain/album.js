@@ -14,10 +14,12 @@ function buildAlbum(thumbnails){
     // add featurettes
     thumbnails.forEach(function(item){
         html += '<div class="card" style="width:100px">';
+        if(item.url) html += '<a href="' + item.url + '">';
         html += '  <img src="' + item.image + '" alt="description">';
         html += '    <p class="card-text"><small>';
         html +=         item.description;
         html += '    </small></p>';
+        if(item.url) html += '</a>';        
         html += '</div>';
     });
 
