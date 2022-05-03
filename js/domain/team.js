@@ -17,11 +17,13 @@ var banner = {
 var students = [];
 students.push({
     name : 'Abel Sanchez',
-    img  : 'img/people/AbelSanchez.jpg'
+    img  : 'img/people/AbelSanchez.jpg',
+    url  : 'https://abel.mit.edu/'
 });
 students.push({
     name : 'John R. Williams',
-    img  : 'img/people/JohnWilliams.jpg'
+    img  : 'img/people/JohnWilliams.jpg',
+    url  : 'https://web.mit.edu/'
 });
 students.push({
     name : 'Bruce Jones',
