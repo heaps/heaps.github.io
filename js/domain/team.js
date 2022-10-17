@@ -255,6 +255,10 @@ students.push({
     name : 'Adam Schlesinger',
     img  : 'img/people/students/MITGDC_AdamSchlesinger.jpg'
 });
+students.push({
+    name : 'Caro Barreiro',
+    img  : 'img/people/caro.jpg'
+});
 
 
 var thumbnails = [];
