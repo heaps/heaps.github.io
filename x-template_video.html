@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" style="display: none;">
+<head>
+  <title>MIT GDC - Video Template</title>
+  <script src="assets/js/init_start.js"></script>
+</head>
+
+<body>
+
+<!-- navbar content -->    
+<div id="navbar"></div>
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+
+
+<div class="container">
+  
+    <style>
+        .thumb{
+            width: 100px;
+        }
+    </style>
+
+    <h1 class="mb-0 display-6">Video Templates</h1>
+    <br>
+
+    <!-- ---------------------------------- -->
+    <!-- EXAMPLE 01 - simple list of videos -->
+    <!-- ---------------------------------- -->
+    <h5>EXAMPLE 01 - simple list of videos</h5>
+    <p>Use href and an image to list video.</p>
+
+    <a href="https://vimeo.com/115041822" class="glightbox3">
+        <img src="assets/gdc/blockchain_card.jpg" class="thumb" alt="image" />
+    </a>
+
+    <a href="https://www.youtube-nocookie.com/embed/Ga6RYejo6Hk" class="glightbox3">
+        <img src="assets/gdc/blockchain_card.jpg" class="thumb" alt="image" />
+    </a>            
+
+    <a href="https://www.youtube-nocookie.com/embed/WdFVtuCL04M" class="glightbox3">
+        <img src="assets/gdc/blockchain_card.jpg" class="thumb" alt="image" />
+    </a>
+
+    <a href="https://www.youtube-nocookie.com/embed/FLaaLKMWiMw" class="glightbox3">
+        <img src="assets/gdc/blockchain_card.jpg" class="thumb" alt="image" />
+    </a>
+
+    <br><br>
+
+    <!-- ---------------------------------- -->
+    <!-- EXAMPLE 02 - simple list of videos -->
+    <!-- ---------------------------------- -->
+    <h5>EXAMPLE 02 - list of videos using rows and columns</h5>
+
+
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-lg-4 col-xl-3">
+        <a href="https://vimeo.com/115041822" class="glightbox3">
+          <img src="assets/gdc/blockchain_card.jpg" class="rounded" alt="image" />
+        </a>
+      </div>
+
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+        <a href="https://www.youtube-nocookie.com/embed/Ga6RYejo6Hk" class="glightbox3">
+          <img src="assets/gdc/blockchain_card.jpg" class="rounded" alt="image" />
+        </a>            
+      </div>
+
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+        <a href="https://www.youtube-nocookie.com/embed/WdFVtuCL04M" class="glightbox3">
+          <img src="assets/gdc/blockchain_card.jpg" class="rounded" alt="image" />
+        </a>
+      </div>
+
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+        <a href="https://www.youtube-nocookie.com/embed/FLaaLKMWiMw" class="glightbox3">
+          <img src="assets/gdc/blockchain_card.jpg" class="rounded" alt="image" />
+        </a>
+      </div>
+
+    </div>
+
+    <br>
+
+    <!-- -------------------------------------------------- -->
+    <!-- EXAMPLE 03 - not video example - just text overlay -->
+    <!-- -------------------------------------------------- -->
+    <h5>EXAMPLE 03 - not video example - just text overlay</h5>
+
+
+    <div class="col-sm-6 col-lg-4 col-xl-3                   
+            p-2 rounded-3" 
+            style="background:url('assets/gdc/team.jpg');">
+
+          <h5 class="text-center text-white">
+            <i class="display-6 text-white bg-opacity-15 fas fa-play-circle"></i>
+            <br>
+            This is a longer title one two
+          </h5>
+
+    </div>
+    <br>
+
+    <!-- ------------------------------------------- -->
+    <!-- EXAMPLE 04 - video overlay using custom css -->
+    <!-- ------------------------------------------- -->
+    <h5>EXAMPLE 04 - video overlay using custom css</h5>
+
+    <style>
+      /* Container holding the image and the text */
+      .mycontainer {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      /* Centered text */
+      .mycentered {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }  
+
+      /* Centered text */
+      .mycenteredicon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }  
+
+      .text-back{
+        background: rgba(0, 0, 0, .8);
+      }
+    </style>
+
+    <div class="mycontainer text-center" style="width: 250px;">
+      <img src="assets/gdc/security_00_low.jpg">
+      <i class="mycenteredicon display-6 text-white bg-opacity-15 fas fa-play-circle"></i>      
+      <div class="mycentered rounded text-back">1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0</div>
+    </div>
+
+
+    <br>
+
+    <!-- ------------------------------------------- -->
+    <!-- EXAMPLE 05 - custom css plus rows & columns -->
+    <!-- ------------------------------------------- -->
+    <h5>EXAMPLE 05 - list videos using rows, columns, and overlay</h5>
+
+    <!-- Tabs content START -->
+    <div>
+      <!-- Content START -->
+      <div>
+        <div class="row g-4">
+         <!-- rows START --> 
+
+          <div class="col-sm-6 col-lg-4 col-xl-3 mycontainer">
+            <a href="https://vimeo.com/115041822" class="glightbox3">
+              <img src="assets/gdc/security_00_low.jpg" class="rounded" alt="image" />
+              <i class="mycenteredicon display-6 text-white bg-opacity-15 fas fa-play-circle"></i>
+              <h6 class="mycentered text-white p-1 rounded" style="background: rgba(0, 0, 0, .8);">1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0</h6>
+            </a>
+          </div>
+
+        </div>
+        <!-- rows END --> 
+      </div>
+      <!-- Content END -->
+    </div>
+    <!-- Tabs content END -->
+
+
+    <br>
+    <!-- --------------------------------------------- -->
+    <!-- EXAMPLE 06 - custom component mit-video-mini  -->
+    <!-- --------------------------------------------- -->
+    <h5>EXAMPLE 06 - custom component, mit-video-mini</h5>
+
+    <div class="row g-4">
+     <!-- rows START --> 
+
+      <div class="col-sm-6 col-lg-4 col-xl-3">
+
+
+        <!-- Video Card item START -->
+        <div class="card shadow h-100">
+
+          <!-- play button overlay -->
+          <div class="position-relative">
+            <img src="assets/gdc/sec_card.jpg" class="card-img-top" alt="course image">
+            <div class="bg-overlay bg-dark opacity-6 rounded-3" class="card-img-top"></div>               
+            <div class="card-img-overlay">
+              <div class="position-absolute top-50 start-50 translate-middle">
+                          <div class="d-flex align-items-center justify-content-center">
+                    <a href="https://www.youtube-nocookie.com/embed/WdFVtuCL04M" class="btn btn-lg btn-round btn-white-shadow text-danger mb-0 overflow-visible glightbox3" style="font-size: 1.5rem;"> 
+                      <i class="fas fa-play" style="font-size: 1.5rem;"></i>
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card body -->
+          <div class="card-body pb-0">
+            <!-- Title -->
+            <h5 class="card-title fw-normal"><a href="">Title: html by hand</a></h5>
+            <p class="mb-2 text-truncate-2">Description: html by hand</p>
+          </div>
+
+        </div>
+        <!-- Video Card item END -->
+
+
+      </div>
+
+      <div class="col-sm-6 col-lg-4 col-xl-3">
+
+        <mit-video-mini
+          img="assets/gdc/sec_card.jpg"
+          video="WdFVtuCL04M"
+          title="Title: using mit-video-mini"
+          description="Description: using mit-video-mini"
+        ></mit-video-mini>
+
+      </div>
+
+
+    </div>
+     <!-- rows END --> 
+
+
+    <br><br>
+</div>
+
+
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- footer content -->
+<div id="footer"></div>
+
+<!-- load resources -->
+<script src="assets/js/init_end.js"></script>
+
+</body>
+</html>    

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />    
+
+        <title>Fancybox</title>
+        <link rel="stylesheet" href="fancybox/fancybox.css"/>
+    </head>
+
+    <body>
+
+        <style>
+            .thumb{
+                width: 100px;
+            }
+        </style>
+
+        <!-- image gallery -->
+        <section>
+            <h3> Simple Image Gallery</h3>
+
+            <!-- section 1 -->
+            <a
+              href="https://lipsum.app/id/1/1024x768"
+              data-fancybox="gallery"
+              data-caption="Optional caption 1"
+            > Image 1</a>
+
+            <a
+              href="https://lipsum.app/id/2/1024x768"
+              data-fancybox="gallery"
+              data-caption="Optional caption 2"
+            > Image 2</a>
+
+            <a
+              href="https://lipsum.app/id/4/1024x768"
+              data-fancybox="gallery"
+              data-caption="Optional caption 3"
+            > Image 3</a> 
+
+            <!-- section 2 -->
+            <br><br>
+            <a href="http://media.w3.org/2010/05/sintel/trailer.mp4" data-fancybox>
+              Video
+            </a>
+
+            <br><br>
+            <a
+              href="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10500.902039411158!2d2.2913514905137315!3d48.85391001859112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1slv!2slv!4v1622011463926!5m2!1slv!2slv"
+              data-fancybox
+              data-type="iframe"
+              data-preload="false"
+              data-width="640"
+              data-height="480"
+            >
+              Iframe
+            </a><br><br>
+
+
+
+<div class="grid imglist">
+
+    <div class="row padding-bottom--sm">
+        <a class="col col--4" 
+            data-fancybox="demo"
+            data-src="https://lipsum.app/id/36/1024x768"
+            data-caption="<b>Hello, There!</b> <br /> This is a multi-line caption">
+            <img src="https://lipsum.app/id/36/400x300" class="thumb">
+        </a>
+        <a class="col col--4" 
+            data-fancybox="demo"
+            data-src="https://lipsum.app/id/30/1024x768" 
+            data-caption="Optional caption">
+            <img src="https://lipsum.app/id/30/400x300" class="thumb">
+        </a>
+        <a class="col col--4" 
+            data-fancybox="demo"
+            data-src="https://lipsum.app/id/61/1024x768">
+            <img src="https://lipsum.app/id/61/400x300" class="thumb">
+        </a>
+    </div>
+    <div class="row">
+        <a class="col col--6" 
+            data-fancybox="demo" 
+            data-src="https://lipsum.app/id/68/1536x768">
+            <img src="https://lipsum.app/id/68/500x250" class="thumb">
+        </a>
+        <a class="col col--6" 
+            data-fancybox="demo"
+            data-src="https://lipsum.app/id/60/1536x768">
+            <img src="https://lipsum.app/id/60/500x250" class="thumb">
+        </a>
+    </div>
+    
+</div>
+
+
+            <!-- section 3 -->
+            <br><br><br>
+            <button data-fancybox data-src="#dialog-content">
+              HTML element
+            </button>
+
+            <div id="dialog-content" style="display:none;">
+              <h2>Hello, world!</h2>
+              <p>
+                <input type="text" value="See if changes remain after closing the dialog" />
+              </p>
+            </div>
+
+
+        </section>
+
+
+
+
+        <script src="fancybox/fancybox.umd.js"></script>
+        <script>
+
+/*
+// Image gallery
+var gallery = [
+  {
+    src: "https://lipsum.app/id/2/800x600",
+    thumb: "https://lipsum.app/id/2/80x80",
+    caption: "First image",
+  },
+  {
+    src: "https://lipsum.app/id/3/800x600",
+    thumb: "https://lipsum.app/id/3/80x80",
+    caption: "Second image",
+  },
+  {
+    src: "https://lipsum.app/id/4/800x600",
+    thumb: "https://lipsum.app/id/4/80x80",
+    caption: "Third image",
+  },
+];
+
+Fancybox.show(gallery, {
+  // Your options go here
+});
+
+// HTML element
+Fancybox.show([{ src: "#dialog-content", type: "inline" }]);
+
+// A copy of HTML element
+Fancybox.show([{ src: "#dialog-content", type: "clone" }]);
+
+// Any HTML content
+Fancybox.show([{ src: "<p>Lorem ipsum dolor sit amet.</p>", type: "html" }]);
+*/
+        </script>
+    </body>
+</html>

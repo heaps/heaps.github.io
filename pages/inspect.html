@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" style="display: none;">
+<head>
+	<title>MIT GDC - AI</title>
+
+<script>
+
+// resolve path for local and server development
+var path = document.currentScript.getAttribute('src');
+if (path.includes('../assets/js')){
+  var index = path.indexOf('assets/js');
+  path = path.substring(0,index);
+  console.log('path:',path);
+}
+else{
+  path = '';
+}	
+console.log('path:',path);	
+
+</script>
+
+
+	<script src="assets/js/init_start.js"></script>
+</head>
+
+<body>
+
+<!-- navbar content -->    
+<div id="navbar"></div>
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+
+<!-- ===================================================
+Main Banner START -->
+
+<section class="pt-0 position-relative overflow-hidden h-700px h-sm-600px h-lg-700px rounded-top-4 mx-2 mx-md-4" style="background-image:url(assets/gdc/ai.jpg); background-position: center; background-size: cover;">
+	<div class="bg-overlay bg-dark opacity-5"></div>
+	
+	<!-- SVG decoration for curve -->
+	<figure class="position-absolute bottom-0 left-0 w-100 d-md-block mb-n3 z-index-9">
+		<svg class="fill-body" width="100%" height="150" viewBox="0 0 500 150" preserveAspectRatio="none">
+			<path d="M0,150 L0,40 Q250,150 500,40 L580,150 Z"></path>
+		</svg>
+	</figure>
+		
+	<div class="container z-index-9 position-relative">
+
+
+		<div class="row py-0 py-md-5 align-items-center text-center text-sm-start">
+			<div class="col-sm-10 col-lg-10 col-xl-10 all-text-white my-5 mt-md-0">
+				<div class="py-0 py-md-5 my-5">
+								
+					<!-- Title -->
+					<h1 class="text-white display-5">Artificial Intelligence is<span class="text-warning"> transforming our world.</span></h1>
+					<p class="text-white">Current Data Science research projects are Reducing False Positives in Fraud Prevention (REFA), Decision Support Platform (DSP), Sustainable Infrastructure Planning System (SIPS), Integrated Energy Decision Support System (IEDSS), Cyber Security Initiative (CSI), Complex Systems Computation Platform (CSCP), and Connected Intelligence (COIN).</p>
+
+					<!-- links to other topics -->
+					<mit-pills color="purple"></mit-pills>
+					
+					<div class="d-sm-flex align-items-center mt-4">
+						<mit-video-button video="L4EgZWh2sQ4"></mit-video-button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- =======================
+Main Banner END -->
+
+
+
+<!-- =======================
+Popular course START -->
+<section>
+	<div class="container">
+		<!-- Title -->
+		<div class="row mb-4">
+			<div class="col-lg-8 mx-auto text-center">
+				<h2 class="fs-1">Most Popular Courses</h2>
+				<p class="mb-0">Choose from hundreds of courses from specialist organizations</p>
+			</div>
+		</div>
+
+		<!-- Tabs START -->
+		<ul class="nav nav-pills nav-pills-bg-soft justify-content-sm-center mb-4 px-3" id="course-pills-tab" role="tablist">
+
+			<!-- Tab item - used to insert a thick horizontal line -->
+			<li class="nav-item me-2 me-sm-5"></li>
+
+		</ul>
+		<!-- Tabs END -->
+
+		<!-- Tabs content START -->
+		<div class="tab-content" id="course-pills-tabContent">
+			<!-- Content START -->
+			<div class="tab-pane fade show active" id="course-pills-tabs-1" role="tabpanel" aria-labelledby="course-pills-tab-1">
+				<div class="row g-4">
+
+
+          			<div class="col-sm-6 col-lg-4 col-xl-3">
+						<mit-video-card
+							img="assets/gdc/sec_card.jpg"
+							video="WdFVtuCL04M"
+							author="Abel Sanchez"
+							title="Digital Transformation"
+							description="Digital Transformation"
+							length="12 min"
+						></mit-video-card>
+					</div>
+
+          			<div class="col-sm-6 col-lg-4 col-xl-3">
+						<mit-video-card
+							img="assets/gdc/sec_card.jpg"
+							video="Cvgx14UtLLQ"
+							author="Clark Kent"
+							title="Metropolis 1"
+							description="Where superman lives"
+							length="12 min"
+						></mit-video-card>
+					</div>
+
+          			<div class="col-sm-6 col-lg-4 col-xl-3">
+						<mit-video-card
+							img="assets/gdc/sec_card.jpg"
+							video="FLaaLKMWiMw"
+							author="Clark Kent"
+							title="Metropolis 2"
+							description="Where superman lives"
+							length="12 min"
+						></mit-video-card>
+					</div>
+
+
+          			<div class="col-sm-6 col-lg-4 col-xl-3">
+						<mit-course-card
+							img="assets/images/courses/4by3/02.jpg"
+							level="Beginner"
+							title="Graphic Design Masterclass"
+							description="Rooms oh fully taken by worse do Points afraid but may end rooms"
+							length="10 Lectures"
+						></mit-course-card>
+					</div>
+
+
+          			<div class="col-sm-6 col-lg-4 col-xl-3">
+						<mit-course-card
+							img="assets/images/courses/4by3/03.jpg"
+							level="Beginner"
+							title="Create a Design System"
+							description="Rooms oh fully taken by worse do. Points afraid but may end"
+							length="5 Lectures"
+						></mit-course-card>
+					</div>
+
+
+          			<div class="col-sm-6 col-lg-4 col-xl-3">
+						<mit-course-card
+							img="assets/images/courses/4by3/07.jpg"
+							level="Beginner"
+							title="Deep Learning with React-Native"
+							description="Far advanced settling say finished raillery. Offered chiefly"
+							length="15 Lectures"
+						></mit-course-card>
+					</div>
+
+
+				</div>
+			</div>
+			<!-- Content END -->
+		</div>
+		<!-- Tabs content END -->
+	</div>
+</section>
+<!-- =======================
+Popular course END -->
+
+
+
+<!-- =======================
+Grey block START -->
+<section class="bg-light">
+	<div class="container">
+
+
+		<!-- Title -->
+		<h2 class="fs-1">Areas of research and study</h2>
+		<p>Current Data Science research projects are Reducing False Positives in Fraud Prevention (REFA), Decision Support Platform (DSP), Sustainable Infrastructure Planning System (SIPS), Integrated Energy Decision Support System (IEDSS), Cyber Security Initiative (CSI), Complex Systems Computation Platform (CSCP), and Connected Intelligence (COIN).</p>
+
+		<div id="team"></div>
+
+		<ul>
+			<li class="avatar">
+				<img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" 
+				data-bs-toggle="tooltip" data-bs-title="First person in avatar list" alt="avatar">
+			</li>
+			<li class="avatar">
+				<img class="avatar-img rounded-circle" src="assets/images/avatar/02.jpg" alt="avatar">
+			</li>
+			<li class="avatar">
+				<img class="avatar-img rounded-circle" src="assets/images/avatar/03.jpg" alt="avatar">
+			</li>
+			<li class="avatar">
+				<img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpg" alt="avatar">
+			</li>
+
+		</ul>
+
+
+			<!-- Our team START -->
+			<ul>				
+				<!-- Avatar -->
+				<li class="avatar avatar-xxl mb-3">
+					<img class="avatar-img" src="assets/images/avatar/01.jpg" alt="avatar">
+					<!-- Info -->
+					<div class="text-center">
+						<h6 class="mb-0"><a href="#">Carolyn Ortiz</a></h6>
+					</div>
+				</li>
+
+				<!-- Avatar -->
+				<li class="avatar avatar-xxl mb-3">
+					<img class="avatar-img" src="assets/images/avatar/02.jpg" alt="avatar">
+					<!-- Info -->
+					<div class="text-center">
+						<h6 class="mb-0"><a href="#">Dennis Barrett</a></h6>
+					</div>
+				</li>
+
+				<!-- Avatar -->
+				<li class="avatar avatar-xxl mb-3">
+					<img class="avatar-img rounded" src="assets/images/avatar/09.jpg" alt="avatar">
+					<!-- Info -->
+					<div class="text-center">
+						<h6 class="mb-0"><a href="#">Frances Guerrero</a></h6>
+					</div>
+				</li>
+
+				<!-- Avatar -->
+				<li class="avatar avatar-xxl mb-3">
+					<img class="avatar-img rounded-circle" src="assets/images/avatar/04.jpg" alt="avatar">
+					<!-- Info -->
+					<div class="text-center">
+						<h6 class="mb-0"><a href="#">Larry Lawson</a></h6>
+					</div>
+				</li>
+
+				<!-- Avatar -->
+				<li class="avatar avatar-xxl mb-3">
+					<img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpg" alt="avatar">
+					<!-- Info -->
+					<div class="text-center">
+						<h6 class="mb-0"><a href="#">Louis Crawford</a></h6>
+					</div>
+				</li>
+				
+			</ul>
+			<!-- Our team END -->
+
+
+		<div class="d-flex justify-content-center">
+
+			<div class="row g-2 d-flex justify-content-center">
+
+				<!-- Topic item -->
+				<div class="col-sm-5 col-md-4 col-xl-3">				
+					<mit-topic
+						color="warning"
+						icon="bi bi-broadcast-pin"
+						title="IOT"
+						subtitle="Internet of Things"
+						url="pages/iot.html"
+					></mit-topic>
+				</div>
+
+				<!-- Topic item -->
+				<div class="col-sm-5 col-md-4 col-xl-3">				
+					<mit-topic
+						color="blue"
+						icon="fas fa-solid fa-database"
+						title="Data"
+						subtitle="AI, ML, Ops, Cloud"
+						url="pages/data.html"						
+					></mit-topic>
+				</div>
+
+				<!-- Topic item -->
+				<div class="col-sm-5 col-md-4 col-xl-3">				
+					<mit-topic
+						color="purple"
+						icon="fas fa-duotone fa-cubes"
+						title="Web3"
+						subtitle="BC, DeFi, Metaverse"
+						url="pages/web3.html"						
+					></mit-topic>
+				</div>
+
+				<!-- Topic item -->
+				<div class="col-sm-5 col-md-4 col-xl-3">				
+					<mit-topic
+						color="info"
+						icon="fas fa-hands-helping"
+						title="Outreach"
+						subtitle="Education Share"
+						url="pages/outreach.html"						
+					></mit-topic>
+				</div>
+
+				<!-- Topic item -->
+				<div class="col-sm-5 col-md-4 col-xl-3">				
+					<mit-topic
+						color="warning"
+						icon="fas fa-solid fa-lock"
+						title="Security"
+						subtitle="Cybersecurity Sci"
+						url="pages/security.html"						
+					></mit-topic>
+				</div>
+
+				<!-- Topic item -->
+				<div class="col-sm-5 col-md-4 col-xl-3">				
+					<mit-topic
+						color="blue"
+						icon="fas fa-brain"
+						title="AI"
+						subtitle="Data Engr/Science"
+						url="pages/ai.html"						
+					></mit-topic>
+				</div>
+
+				<!-- Topic item -->
+				<div class="col-sm-5 col-md-4 col-xl-3">				
+					<mit-topic
+						color="purple"
+						icon="fas fa-solid fa-cloud"
+						title="Cloud"
+						subtitle="DevOps & Cloud"
+						url="pages/cloud.html"						
+					></mit-topic>
+				</div>
+
+				<!-- Topic item -->
+				<div class="col-sm-5 col-md-4 col-xl-3">				
+					<mit-topic
+						color="info"
+						icon="fas fa-book"
+						title="Courses"
+						subtitle="Digital Technology"
+						url="pages/courses.html"						
+					></mit-topic>
+				</div>
+
+
+
+			</div>		
+	
+		</div>
+
+	</div>
+</section>
+<!-- =======================
+Grey block END -->
+
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- footer content -->
+<div id="footer"></div>
+
+<!-- load resources -->
+<script src="assets/js/init_end.js"></script>
+<script src="assets/js/team.js"></script>
+
+</body>
+</html>    
