@@ -256,6 +256,10 @@
     img: "assets/images/people/students/MITGDC_AdamSchlesinger.jpg",
   });
   students.push({
+    name: "Caro Barreiro",
+    img: "assets/images/people/caro.jpg",
+  });
+  students.push({
     name: "Priscilla Clark",
     img: "assets/images/people/PriscillaClark.jpg",
   });
@@ -268,7 +272,8 @@
 
   // start list
   // Start with a grid container for better alignment
-  html += "<div class='team-grid' style='display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 20px; justify-items: center;'>";
+  html +=
+    "<div class='team-grid' style='display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 20px; justify-items: center;'>";
 
   var thumbnails = [];
   students.forEach(function (student) {
