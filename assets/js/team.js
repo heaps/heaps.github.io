@@ -267,29 +267,28 @@
   var html = "";
 
   // start list
-  html += "<ul>";
+  // Start with a grid container for better alignment
+  html += "<div class='team-grid' style='display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 20px; justify-items: center;'>";
 
   var thumbnails = [];
   students.forEach(function (student) {
     var name = student.name;
 
-    // shorten if longer than 11
-    if (name.length > 11) name = name.substring(0, 13);
-
     html += `               
-                <!-- Avatar -->
-                <li class="avatar avatar-xl mb-3">
-                    <img class="avatar-img rounded-circle" src="${student.img}" alt="avatar"
-                    data-bs-toggle="tooltip" data-bs-title="${student.name}">
-                    <!-- Info -->
-                    <div class="text-center">
-                        <p style="font-size:0.7em">${name}</p>
-                </li>
+                <!-- Team member card -->
+                <div class="team-member" style="text-align: center;">
+                    <!-- Avatar image - all will align at the top naturally in grid layout -->
+                    <img class="avatar-img rounded-circle" src="${student.img}" alt="avatar" 
+                         style="width: 80px; height: 80px; margin-bottom: 8px;"
+                         data-bs-toggle="tooltip" data-bs-title="${student.name}">
+                    <!-- Name with wrapping -->
+                    <p style="font-size: 0.7em; word-wrap: break-word; max-width: 90px; margin: 0 auto;">${name}</p>
+                </div>
         `;
   });
 
-  // end list
-  html += "</ul>";
+  // end grid container
+  html += "</div>";
 
   // set html for team
   team.innerHTML = html;
