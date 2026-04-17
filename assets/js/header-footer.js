@@ -89,11 +89,7 @@ var navbar_html = `
 						<ul class="dropdown-menu" aria-labelledby="demoMenu">
 							<li> <a class="dropdown-item" href="people.html">People</a></li>
 							<li> <a class="dropdown-item" href="people.html#team">Meet the Team</a></li>
-							<li> <a class="dropdown-item" href="people.html#leadership">Collaborating Faculty</a></li>
 							<li> <a class="dropdown-item" href="people.html#security">Industry Collaborators</a></li>
-							<li> <a class="dropdown-item" href="people.html#supplychain">Faculty Collaborators at other Universities</a></li>
-							<li> <a class="dropdown-item" href="people.html#media">Faculty Collaborators at other Universities</a></li>
-							<li> <a class="dropdown-item" href="people.html#gis">GIS Collaborators</a></li>
 							<li> <a class="dropdown-item" href="people.html#join">Join Us</a></li>
 						</ul>
 					</li>
