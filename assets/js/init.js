@@ -24,7 +24,7 @@ var scripts = [
 var metas = [
     {name:'viewport', content:'width=device-width, initial-scale=1, shrink-to-fit=no'},
     {name:'author', content:'geospatial.mit.edu'},
-    {name:'description', content:'MIT GDC - Goespatial Data Center'}
+    {name:'description', content:'ACE - Applied Computation & Engineering'}
 ];
 
 var loadStyle = function(url){
@@ -109,5 +109,4 @@ runner().then(() => {
 // ----------------------------------------------------
 //                LOAD LIBRARIES END
 // ----------------------------------------------------
-
 

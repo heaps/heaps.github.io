@@ -26,7 +26,7 @@
                     <div class="card-img-overlay d-flex align-items-center p-2 p-sm-4"> 
                         <div class="w-100 my-auto">
 
-                            <h1 class="text-white display-6">MIT GDC</h1>
+                            <h1 class="text-white display-6">ACE</h1>
 
                             <div class="row g-2">
                                 <!-- Counter item -->
@@ -93,7 +93,7 @@
                                                 <div class="d-flex">
                                                     <h5 class="text-white mb-0 fw-bold">Donate</h5>
                                                 </div>
-                                                <p class="mb-0">Support GDC's Mission</p>
+                                                <p class="mb-0">Support ACE's Mission</p>
                                             </div>
                                         </div>
                                     </a>
@@ -120,7 +120,7 @@
                                 <div class="col-11 col-lg-7">
                                     <!-- Title -->
                                     <h1 class="text-white display-6">Discover Beautiful Patterns</h1>
-                                    <p class="text-white">GDC Outreach - Teaching computation to women in Latin America.</p>
+                                    <p class="text-white">ACE Outreach - Teaching computation to women in Latin America.</p>
                                     <!-- Button -->
                                     <a href="university-admission-form.html" class="btn btn-primary me-2 mb-0">Project</a>
                                     <a href="#" class="btn btn-outline-white mb-0">Video</a>

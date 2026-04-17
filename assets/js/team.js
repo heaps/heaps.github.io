@@ -1,14 +1,14 @@
 // the domain banner
 // ----------------------------------
 /*
-'GDC is always looking for strong students and researchers. A strong preference is given to students who have been admitted to MIT. Similarly, research assistant positions are typically filled internally by graduate students.<br><a href="#join" class="badge badge-primary">Join The Team</a>'
+'ACE is always looking for strong students and researchers. A strong preference is given to students who have been admitted to MIT. Similarly, research assistant positions are typically filled internally by graduate students.<br><a href="#join" class="badge badge-primary">Join The Team</a>'
 */
 
 (function () {
   var banner = {
     title: "People",
     description:
-      'Meet the GDC team. <div><a href="join.html" class="badge badge-info">Join GDC</a> <a href="#gdcadvisors" class="badge badge-info">Advisory Board</a> <a href="#gdcteam" class="badge badge-info">Meet The Team</a></div>',
+      'Meet the ACE team. <div><a href="join.html" class="badge badge-info">Join ACE</a> <a href="#gdcadvisors" class="badge badge-info">Advisory Board</a> <a href="#gdcteam" class="badge badge-info">Meet The Team</a></div>',
     image: "img/data/bokeh.jpg",
   };
 

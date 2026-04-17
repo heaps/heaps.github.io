@@ -30,8 +30,11 @@
                         <div class="py-0 py-md-5 my-5">
                                         
                             <!-- Title -->
-                            <h1 class="text-white display-5">Geospatial Data Center<span class="text-warning"> Applied Computation.</span></h1>
-                            <p class="text-white">The MIT Geospatial Data Center is the uniting force of MIT's Intelligent Engineering Systems Laboratory, bringing together applied computation research in Data Science, Cybersecurity, Simulation, Augmented Reality, the Internet of Things (IOT), Blockchain, and Educational Technology (EdTech).</p>
+                            <h1 class="text-white display-5">
+                                <img src="assets/gdc/globe_icon.svg" alt="" aria-hidden="true" style="width: 0.85em; height: 0.85em; display: inline-block; vertical-align: -0.05em; margin-right: 0.18em;">
+                                Applied Computation & Engineering<span class="text-warning"> (ACE)</span>
+                            </h1>
+                            <p class="text-white">Applied Computation & Engineering is the uniting force bringing together applied computation research in Data Science, Cybersecurity, Simulation, Augmented Reality, the Internet of Things (IOT), Blockchain, and Educational Technology (EdTech).</p>
 
                             <!-- links to other topics -->
                             <mit-pills color="primary"></mit-pills>
@@ -57,4 +60,3 @@
     // set html for home
     home.innerHTML = html;
 })();
-
